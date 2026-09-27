@@ -1,0 +1,1 @@
+import DataPage from '@/components/DataPage';export default function Page(){return <DataPage title="Guru" description="Melihat data guru untuk monitoring sekolah." endpoint="/api/users" columns={[{key:'name',label:'Nama'},{key:'nip',label:'NIP'},{key:'email',label:'Email'}]}/>}

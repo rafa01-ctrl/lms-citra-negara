@@ -1,0 +1,3 @@
+import {connectDB} from '@/lib/db';import Assignment from '@/models/Assignment';import {requireRole} from '@/lib/auth';import {fail,ok} from '@/lib/api';
+export async function GET(){try{const s=await requireRole(['admin','guru','kurikulum','kepsek','siswa']);await connectDB();const q:any=s.role==='guru'?{teacherId:s.id}:s.role==='siswa'&&s.classId?{classIds:s.classId}:{};return ok(await Assignment.find(q).populate('teacherId','name').populate('subjectId','name').sort({dueDate:1}).lean())}catch{return fail('Tidak diizinkan',403)}}
+export async function POST(req:Request){try{const s=await requireRole(['guru']);await connectDB();return ok(await Assignment.create({...await req.json(),teacherId:s.id}),201)}catch{return fail('Gagal membuat tugas',500)}}

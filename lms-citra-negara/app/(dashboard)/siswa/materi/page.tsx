@@ -1,0 +1,1 @@
+import DataPage from '@/components/DataPage';export default function Page(){return <DataPage title="Materi Pembelajaran" description="Materi yang dibagikan guru." endpoint="/api/materials" columns={[{key:'title',label:'Judul'},{key:'description',label:'Deskripsi'},{key:'teacherId.name',label:'Guru'},{key:'subjectId.name',label:'Mapel'},{key:'link',label:'Link'}]}/>}

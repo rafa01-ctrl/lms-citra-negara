@@ -1,0 +1,1 @@
+import DataPage from '@/components/DataPage';export default function Page(){return <DataPage title="Pengumuman" description="Informasi terbaru sekolah dan guru." endpoint="/api/announcements" columns={[{key:'title',label:'Judul'},{key:'content',label:'Isi'},{key:'authorId.name',label:'Dari'}]}/>}

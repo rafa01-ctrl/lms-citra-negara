@@ -1,0 +1,3 @@
+import {connectDB} from '@/lib/db';import Material from '@/models/Material';import {getSession,requireRole} from '@/lib/auth';import {fail,ok} from '@/lib/api';
+export async function GET(){try{const s=await requireRole(['admin','guru','kurikulum','kepsek','siswa']);await connectDB();let q:any={};if(s.role==='guru')q.teacherId=s.id;if(s.role==='siswa'&&s.classId)q.classIds=s.classId;return ok(await Material.find(q).populate('teacherId','name').populate('subjectId','name').sort({createdAt:-1}).lean())}catch{return fail('Tidak diizinkan',403)}}
+export async function POST(req:Request){try{const s=await requireRole(['guru']);await connectDB();const b=await req.json();return ok(await Material.create({...b,teacherId:s.id}),201)}catch{return fail('Gagal membuat materi',500)}}

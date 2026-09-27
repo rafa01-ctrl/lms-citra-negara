@@ -1,0 +1,1 @@
+import DataPage from '@/components/DataPage';export default function Page(){return <DataPage title="Kelas" description="Monitoring data kelas." endpoint="/api/classes" columns={[{key:'name',label:'Kelas'},{key:'level',label:'Tingkat'},{key:'major',label:'Jurusan'},{key:'academicYear',label:'Tahun'}]}/>}

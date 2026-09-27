@@ -1,0 +1,1 @@
+import DataPage from '@/components/DataPage';export default function Page(){return <DataPage title="Mata Pelajaran" description="Kelola daftar mata pelajaran." endpoint="/api/subjects" canCreate createLabel="Tambah Mapel" fields={[{name:'name',label:'Nama mapel'},{name:'code',label:'Kode'}]} columns={[{key:'name',label:'Mata Pelajaran'},{key:'code',label:'Kode'}]}/>}

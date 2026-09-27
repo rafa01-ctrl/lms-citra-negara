@@ -1,0 +1,1 @@
+import DataPage from '@/components/DataPage';export default function Page(){return <DataPage title="Data Guru" description="Monitoring data guru/pengajar." endpoint="/api/users" columns={[{key:'name',label:'Nama'},{key:'nip',label:'NIP'},{key:'email',label:'Email'},{key:'role',label:'Role'}]}/>}

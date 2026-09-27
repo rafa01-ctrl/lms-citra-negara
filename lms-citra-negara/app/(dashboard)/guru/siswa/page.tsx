@@ -1,0 +1,1 @@
+import DataPage from '@/components/DataPage';export default function Page(){return <DataPage title="Siswa & Kelas" description="Melihat data siswa dan kelas yang tersedia." endpoint="/api/users" columns={[{key:'name',label:'Nama'},{key:'nis',label:'NIS'},{key:'email',label:'Email'},{key:'classId.name',label:'Kelas'}]}/>}

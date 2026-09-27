@@ -1,0 +1,1 @@
+import DataPage from '@/components/DataPage';export default function Page(){return <DataPage title="Monitoring Nilai" description="Melihat rekap nilai siswa." endpoint="/api/grades" columns={[{key:'studentId.name',label:'Siswa'},{key:'subjectId.name',label:'Mapel'},{key:'final',label:'Nilai Akhir'}]}/>}
