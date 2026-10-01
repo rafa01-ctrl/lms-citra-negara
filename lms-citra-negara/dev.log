@@ -1,0 +1,1613 @@
+
+> lms-citra-negara@1.0.0 dev
+> next dev
+
+▲ Next.js 16.3.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://10.30.11.203:3000
+- Environments: .env.local, .env
+✓ Ready in 973ms
+✓ Running next.config.ts took 196ms
+
+ GET /login 200 in 1378ms (next.js: 1072ms, application-code: 305ms)
+ POST /api/auth/login 200 in 30.0s (next.js: 140ms, application-code: 29.9s)
+Login gagal: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at <unknown> (MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017)
+    at async connectDB (lib\db.ts:22:16)
+    at async POST (app\api\auth\login\route.ts:9:5)
+  20 |     cache.promise = mongoose.connect(uri as string);
+  21 |   }
+> 22 |   cache.conn = await cache.promise;
+     |                ^
+  23 |   return cache.conn;
+  24 | }
+  25 | {
+  errorLabelSet: Set(0) {},
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  [cause]: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  }
+}
+Login gagal: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at <unknown> (MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017)
+    at async connectDB (lib\db.ts:22:16)
+    at async POST (app\api\auth\login\route.ts:9:5)
+  20 |     cache.promise = mongoose.connect(uri as string);
+  21 |   }
+> 22 |   cache.conn = await cache.promise;
+     |                ^
+  23 |   return cache.conn;
+  24 | }
+  25 | {
+  errorLabelSet: Set(0) {},
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  [cause]: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  }
+}
+ POST /api/auth/login 500 in 22ms (next.js: 5ms, application-code: 17ms)
+ GET /login 200 in 787ms (next.js: 290ms, application-code: 497ms)
+Login gagal: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at <unknown> (MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017)
+    at async connectDB (lib\db.ts:22:16)
+    at async POST (app\api\auth\login\route.ts:9:5)
+  20 |     cache.promise = mongoose.connect(uri as string);
+  21 |   }
+> 22 |   cache.conn = await cache.promise;
+     |                ^
+  23 |   return cache.conn;
+  24 | }
+  25 | {
+  errorLabelSet: Set(0) {},
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  [cause]: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  }
+}
+ POST /api/auth/login 500 in 210ms (next.js: 72ms, application-code: 138ms)
+Login gagal: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at <unknown> (MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017)
+    at async connectDB (lib\db.ts:22:16)
+    at async POST (app\api\auth\login\route.ts:9:5)
+  20 |     cache.promise = mongoose.connect(uri as string);
+  21 |   }
+> 22 |   cache.conn = await cache.promise;
+     |                ^
+  23 |   return cache.conn;
+  24 | }
+  25 | {
+  errorLabelSet: Set(0) {},
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  [cause]: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  }
+}
+ POST /api/auth/login 500 in 29ms (next.js: 9ms, application-code: 20ms)
+Login gagal: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at <unknown> (MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017)
+    at async connectDB (lib\db.ts:22:16)
+    at async POST (app\api\auth\login\route.ts:9:5)
+  20 |     cache.promise = mongoose.connect(uri as string);
+  21 |   }
+> 22 |   cache.conn = await cache.promise;
+     |                ^
+  23 |   return cache.conn;
+  24 | }
+  25 | {
+  errorLabelSet: Set(0) {},
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  [cause]: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  }
+}
+ POST /api/auth/login 500 in 23ms (next.js: 8ms, application-code: 15ms)
+Login gagal: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at <unknown> (MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017)
+    at async connectDB (lib\db.ts:22:16)
+    at async POST (app\api\auth\login\route.ts:9:5)
+  20 |     cache.promise = mongoose.connect(uri as string);
+  21 |   }
+> 22 |   cache.conn = await cache.promise;
+     |                ^
+  23 |   return cache.conn;
+  24 | }
+  25 | {
+  errorLabelSet: Set(0) {},
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  [cause]: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  }
+}
+ POST /api/auth/login 500 in 28ms (next.js: 6ms, application-code: 22ms)
+Login gagal: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at <unknown> (MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017)
+    at async connectDB (lib\db.ts:22:16)
+    at async POST (app\api\auth\login\route.ts:9:5)
+  20 |     cache.promise = mongoose.connect(uri as string);
+  21 |   }
+> 22 |   cache.conn = await cache.promise;
+     |                ^
+  23 |   return cache.conn;
+  24 | }
+  25 | {
+  errorLabelSet: Set(0) {},
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  [cause]: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  }
+}
+ POST /api/auth/login 500 in 29ms (next.js: 12ms, application-code: 17ms)
+Login gagal: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at <unknown> (MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017)
+    at async connectDB (lib\db.ts:22:16)
+    at async POST (app\api\auth\login\route.ts:9:5)
+  20 |     cache.promise = mongoose.connect(uri as string);
+  21 |   }
+> 22 |   cache.conn = await cache.promise;
+     |                ^
+  23 |   return cache.conn;
+  24 | }
+  25 | {
+  errorLabelSet: Set(0) {},
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  [cause]: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  }
+}
+ POST /api/auth/login 500 in 21ms (next.js: 8ms, application-code: 14ms)
+Login gagal: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at <unknown> (MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017)
+    at async connectDB (lib\db.ts:22:16)
+    at async POST (app\api\auth\login\route.ts:9:5)
+  20 |     cache.promise = mongoose.connect(uri as string);
+  21 |   }
+> 22 |   cache.conn = await cache.promise;
+     |                ^
+  23 |   return cache.conn;
+  24 | }
+  25 | {
+  errorLabelSet: Set(0) {},
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  [cause]: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  }
+}
+ POST /api/auth/login 500 in 23ms (next.js: 6ms, application-code: 18ms)
+Login gagal: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at <unknown> (MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017)
+    at async connectDB (lib\db.ts:22:16)
+    at async POST (app\api\auth\login\route.ts:9:5)
+  20 |     cache.promise = mongoose.connect(uri as string);
+  21 |   }
+> 22 |   cache.conn = await cache.promise;
+     |                ^
+  23 |   return cache.conn;
+  24 | }
+  25 | {
+  errorLabelSet: Set(0) {},
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  [cause]: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  }
+}
+ POST /api/auth/login 500 in 22ms (next.js: 7ms, application-code: 15ms)
+Login gagal: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at <unknown> (MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017)
+    at async connectDB (lib\db.ts:22:16)
+    at async POST (app\api\auth\login\route.ts:9:5)
+  20 |     cache.promise = mongoose.connect(uri as string);
+  21 |   }
+> 22 |   cache.conn = await cache.promise;
+     |                ^
+  23 |   return cache.conn;
+  24 | }
+  25 | {
+  errorLabelSet: Set(0) {},
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  [cause]: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  }
+}
+ POST /api/auth/login 500 in 27ms (next.js: 9ms, application-code: 19ms)
+Login gagal: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at <unknown> (MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017)
+    at async connectDB (lib\db.ts:22:16)
+    at async POST (app\api\auth\login\route.ts:9:5)
+  20 |     cache.promise = mongoose.connect(uri as string);
+  21 |   }
+> 22 |   cache.conn = await cache.promise;
+     |                ^
+  23 |   return cache.conn;
+  24 | }
+  25 | {
+  errorLabelSet: Set(0) {},
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  [cause]: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  }
+}
+ POST /api/auth/login 500 in 22ms (next.js: 8ms, application-code: 14ms)
+Login gagal: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at <unknown> (MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017)
+    at async connectDB (lib\db.ts:22:16)
+    at async POST (app\api\auth\login\route.ts:9:5)
+  20 |     cache.promise = mongoose.connect(uri as string);
+  21 |   }
+> 22 |   cache.conn = await cache.promise;
+     |                ^
+  23 |   return cache.conn;
+  24 | }
+  25 | {
+  errorLabelSet: Set(0) {},
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  [cause]: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  }
+}
+ POST /api/auth/login 500 in 22ms (next.js: 9ms, application-code: 13ms)
+Login gagal: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at <unknown> (MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017)
+    at async connectDB (lib\db.ts:22:16)
+    at async POST (app\api\auth\login\route.ts:9:5)
+  20 |     cache.promise = mongoose.connect(uri as string);
+  21 |   }
+> 22 |   cache.conn = await cache.promise;
+     |                ^
+  23 |   return cache.conn;
+  24 | }
+  25 | {
+  errorLabelSet: Set(0) {},
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  [cause]: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  }
+}
+ POST /api/auth/login 500 in 19ms (next.js: 7ms, application-code: 12ms)
+Login gagal: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at <unknown> (MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017)
+    at async connectDB (lib\db.ts:22:16)
+    at async POST (app\api\auth\login\route.ts:9:5)
+  20 |     cache.promise = mongoose.connect(uri as string);
+  21 |   }
+> 22 |   cache.conn = await cache.promise;
+     |                ^
+  23 |   return cache.conn;
+  24 | }
+  25 | {
+  errorLabelSet: Set(0) {},
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  [cause]: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  }
+}
+ POST /api/auth/login 500 in 20ms (next.js: 7ms, application-code: 13ms)
+Login gagal: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at <unknown> (MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017)
+    at async connectDB (lib\db.ts:22:16)
+    at async POST (app\api\auth\login\route.ts:9:5)
+  20 |     cache.promise = mongoose.connect(uri as string);
+  21 |   }
+> 22 |   cache.conn = await cache.promise;
+     |                ^
+  23 |   return cache.conn;
+  24 | }
+  25 | {
+  errorLabelSet: Set(0) {},
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  [cause]: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  }
+}
+ POST /api/auth/login 500 in 23ms (next.js: 9ms, application-code: 14ms)
+Login gagal: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at <unknown> (MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017)
+    at async connectDB (lib\db.ts:22:16)
+    at async POST (app\api\auth\login\route.ts:9:5)
+  20 |     cache.promise = mongoose.connect(uri as string);
+  21 |   }
+> 22 |   cache.conn = await cache.promise;
+     |                ^
+  23 |   return cache.conn;
+  24 | }
+  25 | {
+  errorLabelSet: Set(0) {},
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  [cause]: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  }
+}
+ POST /api/auth/login 500 in 20ms (next.js: 8ms, application-code: 12ms)
+Login gagal: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at <unknown> (MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017)
+    at async connectDB (lib\db.ts:22:16)
+    at async POST (app\api\auth\login\route.ts:9:5)
+  20 |     cache.promise = mongoose.connect(uri as string);
+  21 |   }
+> 22 |   cache.conn = await cache.promise;
+     |                ^
+  23 |   return cache.conn;
+  24 | }
+  25 | {
+  errorLabelSet: Set(0) {},
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  [cause]: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  }
+}
+ POST /api/auth/login 500 in 40ms (next.js: 10ms, application-code: 30ms)
+Login gagal: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at <unknown> (MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017)
+    at async connectDB (lib\db.ts:22:16)
+    at async POST (app\api\auth\login\route.ts:9:5)
+  20 |     cache.promise = mongoose.connect(uri as string);
+  21 |   }
+> 22 |   cache.conn = await cache.promise;
+     |                ^
+  23 |   return cache.conn;
+  24 | }
+  25 | {
+  errorLabelSet: Set(0) {},
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  [cause]: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  }
+}
+ POST /api/auth/login 500 in 25ms (next.js: 7ms, application-code: 18ms)
+Login gagal: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at <unknown> (MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017)
+    at async connectDB (lib\db.ts:22:16)
+    at async POST (app\api\auth\login\route.ts:9:5)
+  20 |     cache.promise = mongoose.connect(uri as string);
+  21 |   }
+> 22 |   cache.conn = await cache.promise;
+     |                ^
+  23 |   return cache.conn;
+  24 | }
+  25 | {
+  errorLabelSet: Set(0) {},
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  [cause]: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  }
+}
+ POST /api/auth/login 500 in 21ms (next.js: 8ms, application-code: 12ms)
+Login gagal: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at <unknown> (MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017)
+    at async connectDB (lib\db.ts:22:16)
+    at async POST (app\api\auth\login\route.ts:9:5)
+  20 |     cache.promise = mongoose.connect(uri as string);
+  21 |   }
+> 22 |   cache.conn = await cache.promise;
+     |                ^
+  23 |   return cache.conn;
+  24 | }
+  25 | {
+  errorLabelSet: Set(0) {},
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  [cause]: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  }
+}
+ POST /api/auth/login 500 in 25ms (next.js: 8ms, application-code: 17ms)
+Login gagal: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at <unknown> (MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017)
+    at async connectDB (lib\db.ts:22:16)
+    at async POST (app\api\auth\login\route.ts:9:5)
+  20 |     cache.promise = mongoose.connect(uri as string);
+  21 |   }
+> 22 |   cache.conn = await cache.promise;
+     |                ^
+  23 |   return cache.conn;
+  24 | }
+  25 | {
+  errorLabelSet: Set(0) {},
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  [cause]: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  }
+}
+ POST /api/auth/login 500 in 17ms (next.js: 5ms, application-code: 11ms)
+Login gagal: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at <unknown> (MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017)
+    at async connectDB (lib\db.ts:22:16)
+    at async POST (app\api\auth\login\route.ts:9:5)
+  20 |     cache.promise = mongoose.connect(uri as string);
+  21 |   }
+> 22 |   cache.conn = await cache.promise;
+     |                ^
+  23 |   return cache.conn;
+  24 | }
+  25 | {
+  errorLabelSet: Set(0) {},
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  [cause]: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  }
+}
+ POST /api/auth/login 500 in 27ms (next.js: 9ms, application-code: 18ms)
+Login gagal: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at <unknown> (MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017)
+    at async connectDB (lib\db.ts:22:16)
+    at async POST (app\api\auth\login\route.ts:9:5)
+  20 |     cache.promise = mongoose.connect(uri as string);
+  21 |   }
+> 22 |   cache.conn = await cache.promise;
+     |                ^
+  23 |   return cache.conn;
+  24 | }
+  25 | {
+  errorLabelSet: Set(0) {},
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  [cause]: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  }
+}
+ POST /api/auth/login 500 in 34ms (next.js: 16ms, application-code: 18ms)
+Login gagal: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at <unknown> (MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017)
+    at async connectDB (lib\db.ts:22:16)
+    at async POST (app\api\auth\login\route.ts:9:5)
+  20 |     cache.promise = mongoose.connect(uri as string);
+  21 |   }
+> 22 |   cache.conn = await cache.promise;
+     |                ^
+  23 |   return cache.conn;
+  24 | }
+  25 | {
+  errorLabelSet: Set(0) {},
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  [cause]: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  }
+}
+ POST /api/auth/login 500 in 39ms (next.js: 13ms, application-code: 25ms)
+Login gagal: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at <unknown> (MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017)
+    at async connectDB (lib\db.ts:22:16)
+    at async POST (app\api\auth\login\route.ts:9:5)
+  20 |     cache.promise = mongoose.connect(uri as string);
+  21 |   }
+> 22 |   cache.conn = await cache.promise;
+     |                ^
+  23 |   return cache.conn;
+  24 | }
+  25 | {
+  errorLabelSet: Set(0) {},
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  [cause]: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  }
+}
+ POST /api/auth/login 500 in 33ms (next.js: 14ms, application-code: 19ms)
+Login gagal: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at <unknown> (MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017)
+    at async connectDB (lib\db.ts:22:16)
+    at async POST (app\api\auth\login\route.ts:9:5)
+  20 |     cache.promise = mongoose.connect(uri as string);
+  21 |   }
+> 22 |   cache.conn = await cache.promise;
+     |                ^
+  23 |   return cache.conn;
+  24 | }
+  25 | {
+  errorLabelSet: Set(0) {},
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  [cause]: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  }
+}
+ POST /api/auth/login 500 in 25ms (next.js: 6ms, application-code: 19ms)
+Login gagal: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at <unknown> (MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017)
+    at async connectDB (lib\db.ts:22:16)
+    at async POST (app\api\auth\login\route.ts:9:5)
+  20 |     cache.promise = mongoose.connect(uri as string);
+  21 |   }
+> 22 |   cache.conn = await cache.promise;
+     |                ^
+  23 |   return cache.conn;
+  24 | }
+  25 | {
+  errorLabelSet: Set(0) {},
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  [cause]: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  }
+}
+ POST /api/auth/login 500 in 20ms (next.js: 8ms, application-code: 12ms)
+Login gagal: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at <unknown> (MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017)
+    at async connectDB (lib\db.ts:22:16)
+    at async POST (app\api\auth\login\route.ts:9:5)
+  20 |     cache.promise = mongoose.connect(uri as string);
+  21 |   }
+> 22 |   cache.conn = await cache.promise;
+     |                ^
+  23 |   return cache.conn;
+  24 | }
+  25 | {
+  errorLabelSet: Set(0) {},
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  [cause]: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  }
+}
+ POST /api/auth/login 500 in 24ms (next.js: 10ms, application-code: 15ms)
+Login gagal: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at <unknown> (MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017)
+    at async connectDB (lib\db.ts:22:16)
+    at async POST (app\api\auth\login\route.ts:9:5)
+  20 |     cache.promise = mongoose.connect(uri as string);
+  21 |   }
+> 22 |   cache.conn = await cache.promise;
+     |                ^
+  23 |   return cache.conn;
+  24 | }
+  25 | {
+  errorLabelSet: Set(0) {},
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  [cause]: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  }
+}
+ POST /api/auth/login 500 in 23ms (next.js: 6ms, application-code: 17ms)
+Login gagal: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at <unknown> (MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017)
+    at async connectDB (lib\db.ts:22:16)
+    at async POST (app\api\auth\login\route.ts:9:5)
+  20 |     cache.promise = mongoose.connect(uri as string);
+  21 |   }
+> 22 |   cache.conn = await cache.promise;
+     |                ^
+  23 |   return cache.conn;
+  24 | }
+  25 | {
+  errorLabelSet: Set(0) {},
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  [cause]: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  }
+}
+ POST /api/auth/login 500 in 18ms (next.js: 5ms, application-code: 13ms)
+Login gagal: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at <unknown> (MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017)
+    at async connectDB (lib\db.ts:22:16)
+    at async POST (app\api\auth\login\route.ts:9:5)
+  20 |     cache.promise = mongoose.connect(uri as string);
+  21 |   }
+> 22 |   cache.conn = await cache.promise;
+     |                ^
+  23 |   return cache.conn;
+  24 | }
+  25 | {
+  errorLabelSet: Set(0) {},
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  [cause]: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  }
+}
+ POST /api/auth/login 500 in 24ms (next.js: 7ms, application-code: 16ms)
+Login gagal: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at <unknown> (MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017)
+    at async connectDB (lib\db.ts:22:16)
+    at async POST (app\api\auth\login\route.ts:9:5)
+  20 |     cache.promise = mongoose.connect(uri as string);
+  21 |   }
+> 22 |   cache.conn = await cache.promise;
+     |                ^
+  23 |   return cache.conn;
+  24 | }
+  25 | {
+  errorLabelSet: Set(0) {},
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  [cause]: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  }
+}
+ POST /api/auth/login 500 in 17ms (next.js: 5ms, application-code: 12ms)
+Login gagal: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at <unknown> (MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017)
+    at async connectDB (lib\db.ts:22:16)
+    at async POST (app\api\auth\login\route.ts:9:5)
+  20 |     cache.promise = mongoose.connect(uri as string);
+  21 |   }
+> 22 |   cache.conn = await cache.promise;
+     |                ^
+  23 |   return cache.conn;
+  24 | }
+  25 | {
+  errorLabelSet: Set(0) {},
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  [cause]: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  }
+}
+ POST /api/auth/login 500 in 20ms (next.js: 6ms, application-code: 14ms)
+Login gagal: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at <unknown> (MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017)
+    at async connectDB (lib\db.ts:22:16)
+    at async POST (app\api\auth\login\route.ts:9:5)
+  20 |     cache.promise = mongoose.connect(uri as string);
+  21 |   }
+> 22 |   cache.conn = await cache.promise;
+     |                ^
+  23 |   return cache.conn;
+  24 | }
+  25 | {
+  errorLabelSet: Set(0) {},
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  [cause]: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  }
+}
+ POST /api/auth/login 500 in 22ms (next.js: 8ms, application-code: 15ms)
+Login gagal: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at <unknown> (MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017)
+    at async connectDB (lib\db.ts:22:16)
+    at async POST (app\api\auth\login\route.ts:9:5)
+  20 |     cache.promise = mongoose.connect(uri as string);
+  21 |   }
+> 22 |   cache.conn = await cache.promise;
+     |                ^
+  23 |   return cache.conn;
+  24 | }
+  25 | {
+  errorLabelSet: Set(0) {},
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  [cause]: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  }
+}
+ POST /api/auth/login 500 in 28ms (next.js: 10ms, application-code: 18ms)
+Login gagal: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at <unknown> (MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017)
+    at async connectDB (lib\db.ts:22:16)
+    at async POST (app\api\auth\login\route.ts:9:5)
+  20 |     cache.promise = mongoose.connect(uri as string);
+  21 |   }
+> 22 |   cache.conn = await cache.promise;
+     |                ^
+  23 |   return cache.conn;
+  24 | }
+  25 | {
+  errorLabelSet: Set(0) {},
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  [cause]: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  }
+}
+ POST /api/auth/login 500 in 20ms (next.js: 8ms, application-code: 12ms)
+Login gagal: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at <unknown> (MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017)
+    at async connectDB (lib\db.ts:22:16)
+    at async POST (app\api\auth\login\route.ts:9:5)
+  20 |     cache.promise = mongoose.connect(uri as string);
+  21 |   }
+> 22 |   cache.conn = await cache.promise;
+     |                ^
+  23 |   return cache.conn;
+  24 | }
+  25 | {
+  errorLabelSet: Set(0) {},
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  [cause]: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  }
+}
+ POST /api/auth/login 500 in 18ms (next.js: 7ms, application-code: 11ms)
+Login gagal: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at <unknown> (MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017)
+    at async connectDB (lib\db.ts:22:16)
+    at async POST (app\api\auth\login\route.ts:9:5)
+  20 |     cache.promise = mongoose.connect(uri as string);
+  21 |   }
+> 22 |   cache.conn = await cache.promise;
+     |                ^
+  23 |   return cache.conn;
+  24 | }
+  25 | {
+  errorLabelSet: Set(0) {},
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  [cause]: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  }
+}
+ POST /api/auth/login 500 in 21ms (next.js: 7ms, application-code: 14ms)
+^C

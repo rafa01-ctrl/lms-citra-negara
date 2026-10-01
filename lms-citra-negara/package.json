@@ -6,23 +6,30 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "seed": "tsx scripts/seed.ts"
+    "seed": "tsx scripts/seed.ts",
+    "db:dev": "tsx scripts/dev-mongo.ts",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "bcryptjs": "latest",
+    "dotenv": "latest",
     "jose": "latest",
+    "lucide-react": "latest",
     "mongoose": "latest",
     "next": "latest",
     "react": "latest",
-    "react-dom": "latest",
-    "lucide-react": "latest",
-    "dotenv": "latest"
+    "react-dom": "latest"
   },
   "devDependencies": {
     "@types/node": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
+    "mongodb-memory-server": "^11.3.0",
     "tsx": "latest",
     "typescript": "latest"
+  },
+  "allowScripts": {
+    "mongodb-memory-server@11.3.0": true
   }
 }

@@ -1,0 +1,6 @@
+
+> lms-citra-negara@1.0.0 db:dev
+> tsx scripts/dev-mongo.ts
+
+MongoDB in-memory aktif di mongodb://127.0.0.1:27017/lms-citra-negara
+Data akan hilang saat proses ini dihentikan (Ctrl+C).
